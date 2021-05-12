@@ -1,0 +1,177 @@
+header{
+    min-height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #fdd654;
+    color: white;
+    position: relative;
+}
+
+header .header-nav{
+    padding: 15px 0px;
+}
+
+header .header-nav .btn{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    min-height: 35px;
+    max-height: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .header-nav .btn.no-margin{
+    margin: 0px;;
+}
+
+header .header-nav a{
+    text-decoration: none;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: #fdd654;
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-buttons{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 25%;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-light a{
+    color: black;
+}
+
+w-100{
+    width: 100%;
+}
+/* ------------------------ shop-menu ------------------------ */
+.shop-menu figure {
+   margin-bottom: 20px;
+   position: relative;
+}
+
+.shop-menu figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #fdd654;
+    padding: 5px 0px;
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+}
+
+/* ------------------------ shop buttons ------------------------ */
+.shop-menu figcaption button{
+    margin: 0px 5px;
+}
+
+.shop-menu figcaption .btn-outline-light{
+    border-color: #fdd65400;
+}
+
+.btn-pink{
+    color: #ffc400;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}  
+
+.shop-menu figcaption .btn-light:hover {
+    color: #ffc400;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+}
+
+.shop-menu figure img{
+    width: 100%;
+}
+
+/* ------------------------ divtable ------------------------ */
+.divTable
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+    }
+
+/* ------------------------ backoffice ------------------------ */
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------ custom-margin ------------------------ */
+.m-r-5{
+    margin-right: 5px;
+}
+
+.m-0{
+    margin: 0px;
+}
+
+.m-l-5{
+    margin-left: 5px;
+}
+
+.m-b-10{
+    margin-bottom: 10px;
+}
+
+.custom-checkbox{
+    left: 3px;
+    position: relative;
+    top: 10px;
+}
+
+.green-row{
+    background-color: green;
+}
+
+.yellowish-row{
+    background-color: #fdd65496;
+}
